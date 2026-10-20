@@ -1,0 +1,16 @@
+{
+    "name": "infinite-canvas-desktop",
+    "version": "1.0.0",
+    "private": true,
+    "main": "main.cjs",
+    "scripts": {
+        "start": "electron .",
+        "pack": "electron-packager . infinite-canvas --platform=win32 --arch=x64 --out=../dist-desktop --overwrite --app-version=1.0.0"
+    },
+    "devDependencies": {
+        "electron": "^33.4.11",
+        "electron-packager": "^17.1.2",
+        "sharp": "^0.35.5",
+        "to-ico": "^1.1.5"
+    }
+}
